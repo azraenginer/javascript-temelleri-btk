@@ -1,0 +1,64 @@
+
+/* Sayfanın genel ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf0f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Ana kutu */
+.container {
+    background-color: white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Başlık */
+h1 {
+    color: #263b59;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+/* Giriş alanları */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Buton */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2563a6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Butonun üzerine gelindiğinde */
+button:hover {
+    background-color: #174477;
+}
+
+/* Sonuç alanı */
+#sonuc {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #263b59;
+}
